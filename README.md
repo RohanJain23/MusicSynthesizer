@@ -1,1 +1,3 @@
 # MusicSynthesizer
+
+This project is a simple music synthesizer implemented on the Pynq-Z2 FPGA board. It generates basic waveforms such as sine, square, triangle, and sawtooth, and transmits the audio samples using the I²S protocol. The design uses programmable logic (PL) to handle both waveform generation and I²S data transmission, producing 16-bit audio frames that can be sent to the on-board codec or an external DAC. The Verilog modules include a waveform generator, an I²S transmitter, and supporting testbenches for simulation. Users can customize the frame data or waveform tables to create different tones and sounds. The project is built entirely in Vivado, targeting the Zynq-7000 SoC on the Pynq-Z2 board.
